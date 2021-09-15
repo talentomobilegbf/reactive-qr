@@ -50,7 +50,7 @@ class VideoStream extends Component {
 
     const devices = await navigator.mediaDevices.enumerateDevices();
     const cameras = devices.filter(device => device.kind === 'videoinput');
-    let videoMode = { facingMode: 'user' };
+    let videoMode = { facingMode: 'environment' };
     if (cameras.length > 1) {
       const cameraIndex = this.props.rearCamera ? 1 : 0;
       const cameraEnv = this.props.rearCamera ? 'environment' : 'user';
