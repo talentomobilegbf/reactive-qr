@@ -17,15 +17,15 @@ This is a regular NPM package which is currently using [`jsQR`](https://github.c
 
 ### NPM
 
-Component available [on npm](https://www.npmjs.com/package/reactive-qr), and can be used with any bundler such us Webpack, Browserify or Gulp.
+Component available [on npm](https://www.npmjs.com/package/react-qr), and can be used with any bundler such us Webpack, Browserify or Gulp.
 
 ```bash
-npm install --save reactive-qr
+npm install --save react-qr
 ```
 
 ```javascript
 // ES6 import
-import ReactiveQR from "reactive-qr";
+import ReactiveQR from "react-qr";
 
 .....
 <ReactiveQR onCode={code => console.log(code)} />

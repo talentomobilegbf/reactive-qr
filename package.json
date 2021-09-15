@@ -1,6 +1,6 @@
 {
-  "name": "reactive-qr",
-  "version": "0.1.8",
+  "name": "react-ready-qr",
+  "version": "0.1.0",
   "description": "React component for reading and generating QR codes",
   "main": "dist/index.js",
   "files": [
@@ -10,14 +10,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tigranbs/reactive-qr.git"
+    "url": "git+https://github.com/talentomobilegbf/reactive-qr.git"
   },
-  "author": "Tigran Bayburtayan",
+  "author": "Miguel Monzón",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tigranbs/reactive-qr/issues"
+    "url": "https://github.com/talentomobilegbf/reactive-qr/issues"
   },
-  "homepage": "https://github.com/tigranbs/reactive-qr#readme",
+  "homepage": "https://github.com/talentomobilegbf/reactive-qr#readme",
   "dependencies": {},
   "peerDependencies": {
     "react": "~16",
